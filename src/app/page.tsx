@@ -20,7 +20,6 @@ export default function Home() {
         <EmailContact />
         <Statement />
         <BlogCards />
-        
         {/* <AuthProvider>
           <Contact />
         </AuthProvider> */}

@@ -67,7 +67,7 @@ export default function Navigation() {
     loading ? (
       <LogoSkeleton />
     ) : (
-      <Link href="/" className="flex h-[50px] w-[150px]">
+      <Link href="/" className="flex items-center font-bold h-[50px] w-[150px]">
         {typeof logoUrl === 'string' && logoUrl !== '' ? (
           <Image 
             src={logoUrl} 
